@@ -1,0 +1,337 @@
+.KYCInfo{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-left: 8px;
+}
+.kycInfo{
+    font-family: 'Urbanist';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 1);
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 10px;
+    
+}
+.steps{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: 'Urbanist';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16.8px;
+    color: rgba(145, 145, 145, 1);
+    padding-bottom: 15px;
+}
+.InfoForm{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    border: 1px solid rgba(205, 205, 205, 1);
+    border-radius: 8px;
+}
+.topdiv{
+    border-bottom: 1px solid rgba(205, 205, 205, 1);
+    padding: 32px;
+}
+.property__developer_step1_container
+{
+    display: flex;
+    border-radius: 8px;
+    padding: 22px 26px;
+    background: #F6F6F6;
+    border: none;
+    gap:50px;
+    width: 100%;
+    align-items: center;
+   
+}
+.property__developer_step1_container-1
+{
+    display: flex;
+    gap:10px;
+    align-items: center;
+}
+.divider {
+    width: 1px; /* Thin vertical line */
+    height: 40px; /* Adjust height as needed */
+    border: 1px solid transparent; /* Set initial border to make space for the gradient */
+    border-image-source: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.2) 50%, rgba(0, 0, 0, 0) 100%);
+    border-image-slice: 1;
+    margin: 0 10px; /* Optional: adjust spacing around the divider */
+}
+.form1{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding-top:32px ;
+    margin-bottom: 30px;
+    padding-left: 32px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column; /* Label on top of input */
+   gap: 7px;
+}
+
+.form-group p {
+    font-family: 'Urbanist';
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20.3px;
+color: rgba(0, 0, 0, 1);
+margin-top: 0;
+margin-bottom: 0;
+}
+
+.form-group input {
+    border-radius: 8px;
+    border: 1px solid rgba(205, 205, 205, 1);
+    width: 40%; /* Full width of the container */
+   padding-top: 12.5px;
+padding-bottom: 12.5px;
+padding-left: 24px;  
+  font-size: 16px;
+}
+
+.form-group input:focus {
+    border: 1px solid rgba(205, 205, 205, 1);
+    outline: none; 
+}
+
+.form-group input::placeholder {
+   color: black;
+   font-family: 'Urbanist';
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 23.2px;
+}
+
+.form-group1 {
+    display: flex;
+    flex-direction: column; /* Label on top of input */
+   gap: 7px;
+}
+
+.form-group1 p {
+    font-family: 'Urbanist';
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20.3px;
+color: rgba(0, 0, 0, 1);
+margin-top: 0;
+margin-bottom: 0;
+}
+
+.form-group1 input {
+    border-radius: 8px;
+    border: 1px solid rgba(205, 205, 205, 1);
+    width: 40%; /* Full width of the container */
+   padding-top: 12.5px;
+padding-bottom: 12.5px;
+padding-left: 24px;  
+  font-size: 16px;
+}
+
+.form-group1 input:focus {
+    border: 1px solid rgba(205, 205, 205, 1);
+    outline: none; 
+}
+
+.form-group1 input::placeholder {
+   color: rgba(145, 145, 145, 1);
+   font-family: 'Urbanist';
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 23.2px;
+}
+.react-tel-input .form-control{
+    border-radius: 8px !important;
+    border: 1px solid rgba(205, 205, 205, 1) !important;
+    width: 40% !important; /* Full width of the container */
+   padding-top: 12.5px !important;
+padding-bottom: 12.5px !important;
+padding-left: 24px !important;  
+  font-size: 16px !important;
+  height: 46px !important;
+}
+.react-tel-input .form-control  input::placeholder {
+    color: rgba(145, 145, 145, 1);
+    font-family: 'Urbanist';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23.2px;
+ }
+ .next__steps__button{
+    margin-left: 32px;
+    width: 38%;
+    background-color: rgba(19, 158, 213, 1);
+    font-family: 'Urbanist';
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20.3px;
+    border: none;
+    border-radius: 8px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    color: rgba(255, 255, 255, 1);
+    margin-bottom: 32px;
+ }
+ .ProofIncorporationcontainer{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 12.5px;
+    padding-bottom: 12.5px;
+    padding: 13px 24px;
+    border-radius: 8px;
+    border: 1px solid #CDCDCD;
+ }
+ .Incorporationplaceholder{
+    border: none;
+    width: 90%;
+ }
+ .proof {
+    display: flex;
+    flex-direction: column; /* Label on top of input */
+    gap: 7px;
+}
+
+.proof p {
+    font-family: 'Urbanist';
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20.3px;
+    color: rgba(0, 0, 0, 1);
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.investor__step1__text{
+    font-family: "Urbanist";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 19.6px;
+}
+
+.ProofIncorporationcontainer {
+
+    display: flex;
+    align-items: center;
+    border: 1px solid rgba(205, 205, 205, 1); /* Border around the entire container */
+    padding: 5px;
+    width: 40%;
+    border-radius: 4px; /* Optional: for rounded corners */
+}
+
+.proof input {
+    border: none;
+    width: 100%;
+    padding: 5px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20.3px;
+    color: rgba(0, 0, 0, 1);
+}
+
+.proof input:focus {
+    outline: none;
+    color: #000000;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22.4px;
+}
+.uploaddoc{
+    color: rgba(145, 145, 145, 1);
+   font-family: 'Urbanist';
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 23.2px;
+}
+.inside{
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 24px;
+}
+.file-upload-label{
+    width: 100%;
+}
+
+.step_3_button_container{
+    display: flex;
+    width: 40%;
+    gap: 10px;
+    margin-left: 32px;
+    margin-bottom: 32px;
+}
+.step_3_back_button{
+    width: 100%;
+    border: 1px solid rgba(145, 145, 145, 1) !important;
+    font-family: 'Urbanist';
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20.3px;
+    border: none;
+    border-radius: 8px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: white;
+    color:rgba(0, 0, 0, 1);
+}
+.next__steps__button2{
+  
+    width: 100%;
+    background-color: rgba(19, 158, 213, 1);
+    font-family: 'Urbanist';
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20.3px;
+    border: none;
+    border-radius: 8px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    color: rgba(255, 255, 255, 1);
+   
+}
+
+@media  (max-width: 1270px) {
+   .property__developer_step1_container{
+    gap: 25px;
+   }
+  }
+  @media  (max-width: 1080px) {
+    .property__developer_step1_container{
+     gap: 10px;
+    }
+    .form-group input{
+        width: 80%;
+    }
+    .form-group1 input{
+        width: 80%;
+    }
+    .react-tel-input .form-control{
+        width: 80% !important;
+    }
+    .ProofIncorporationcontainer{
+        width: 80%;
+    }
+    .step_3_button_container{
+        width: 75%;
+    }
+    .next__steps__button {
+        width: 75%;
+    }
+   }
+   @media  (max-width: 933px) {
+.topdiv{
+padding: 5px;
+}
+   }
+   @media  (max-width: 865px) {
+    .property__developer_step1_container{
+        gap: 0;
+       }
+       }
