@@ -21,7 +21,6 @@ import MailIcon from '@mui/icons-material/Mail';
 import useMediaQuery from '@mui/material/useMediaQuery';
 import Logo from '../assets/logo.svg';
 import Profile from '../assets/profile.svg';
-import logout from '../assets/logout.svg';
 import { Link,useNavigate } from 'react-router-dom';
 const drawerWidth = 240;
 
@@ -272,37 +271,11 @@ export default function PersistentDrawerLeft({children}) {
       
         </DrawerHeader>
 
-        <div style={{display:'flex', flexDirection:'column' ,height:'100%',gap:'80%',}}>
+        <div>
      <List sx={{ display: 'flex', flexDirection: 'column', padding: '0 10px',}}>
         {renderNavItems(NAVIGATION)}
       </List>
-      <ListItem
-          sx={{
-            marginLeft:'10px',
-            marginRight:'10px',
-        
-            display: 'flex',
-            alignItems:'flex-end',
-          
-            gap: '12px',
-            borderRadius: '8px',
-          }}
-          button
-  
-        >
-          <ListItemIcon sx={{ minWidth: '0px' }}>
-            <img src={logout} alt="Logout"/>
-          </ListItemIcon>
-          <ListItemText
-            primary="Logout"
-            primaryTypographyProps={{
-              fontFamily: 'Urbanist',
-              fontSize: '14px',
-              fontWeight: '400',
-              color: 'rgba(255, 63, 63, 1)',
-            }}
-          />
-        </ListItem>
+      
     </div>
       </Drawer>
       <Main sx={{overflow: 'auto', paddingTop:'120px' ,    width: '80%'}} open={open && !isMobile} isMobile={isMobile}>
